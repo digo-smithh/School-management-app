@@ -107,4 +107,13 @@ Após isso, abra a pasta "Node-Rest-API" em algum terminal (seja no cmd, no Visu
 ```{r}
 node server
 ```
-<p>O servidor estará sendo executado na sua porta 4000. Depois disso, você pode abrir o programa (um atalho dele encontra-se na pasta principal).</p>
+Caso surja um alerta dizendo que algum pacote não foi encontrado, digite o seguinte comando, espere o carregamento concluir e redigite o comando acima.
+
+```{r}
+npm install
+```
+<p>Pronto! O servidor está sendo executado na sua porta 4000. Depois disso, você pode abrir o programa (um atalho dele encontra-se na pasta principal).</p>
+
+Digite o RA de um aluno, o código de uma disciplina, a nota e a frequência. (Nota-se que o aluno, a disciplina e a matrícula de tal aluno em tal disciplina deve estar previamente adicionada no banco de dados, por meio de comandos SQL. Afinal, apenas o cadastro de um **RESULTADO** está implementado. Também nota-se a riqueza de verificações do programa e da API, que não deixará incluir um aluno não existente, uma disciplina não existente, uma matrícula não existente, um resultado já existente...). Então, aperte ➕. Depois de adicionar todos os resultados, aperte salvar 💾. Caso você queira apagar um registro da lista, selecione a linha correspondente da tabela e aperte **DELETE**. Ao pressionar salvar, todos os dados serão enviados ao servidor, que adicionará ao banco de dados.
+
+## ❔ Como funciona ❔
