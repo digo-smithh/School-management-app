@@ -46,25 +46,15 @@ No nosso aplicativo, utilizamos uma Fila (explicarei o porquê futuramente), mas
 
 ## 🎨 Interface 🎨
 O aplicativo foi feito em Windows Forms. Há uma breve tela de carregamento (sua intenção é apenas decorar, afinal o aplicativo é muito simples e não há necessidade de pré-carregar alguma coisa.). No momento que a tela de carregamento desaparece e a tela principal abre, é feito um teste de conexão com a API. Caso o aplicativo não esteja se comunicando com ela da forma como deveria, o programa para de ser executado e um aviso é lançado ao usuário. Segue 3 printscreens, das telas do programa.
+                                                            -------------------------------------------------                                                         
+<img alt="screenshot-1" src="screenshot-1.png" width="350" height="235">
+<img alt="screenshot-3" src="screenshot-3.png" width="205" height=235">
+<img alt="screenshot-2" src="screenshot-2.png" width="205" height="235"> 
                                                             -------------------------------------------------
-                                                            
-```{css, echo=FALSE}
-pre {
-  max-height: 300px;
-  overflow-y: auto;
-}
-
-pre[class] {
-  max-height: 100px;
-}
-```
+O aplicativo foi feito em Windows Forms. Há uma breve tela de carregamento (sua intenção é apenas decorar, afinal o aplicativo é muito simples e não há necessidade de pré-carregar alguma coisa.). No momento que a tela de carregamento desaparece e a tela principal abre, é feito um teste de conexão com a API. Caso o aplicativo não esteja se comunicando com ela da forma como deveria, o programa para de ser executado e um aviso é lançado ao usuário. Segue 3 printscreens, das telas do programa.                                                        
 ```{r}
 <img alt="screenshot-1" src="screenshot-1.png" width="350" height="235">
  <img alt="screenshot-3" src="screenshot-3.png" width="205" height=235">
   <img alt="screenshot-2" src="screenshot-2.png" width="205" height="235"> 
 }
 ```
-
-
-                                                            -------------------------------------------------
-O aplicativo foi feito em Windows Forms. Há uma breve tela de carregamento (sua intenção é apenas decorar, afinal o aplicativo é muito simples e não há necessidade de pré-carregar alguma coisa.). No momento que a tela de carregamento desaparece e a tela principal abre, é feito um teste de conexão com a API. Caso o aplicativo não esteja se comunicando com ela da forma como deveria, o programa para de ser executado e um aviso é lançado ao usuário. Segue 3 printscreens, das telas do programa.                                                        
