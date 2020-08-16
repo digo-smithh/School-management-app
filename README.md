@@ -40,3 +40,10 @@ Uma Lista Ligada, na prática, funciona exatamente como um vetor. Sua diferença
                                              🟦🟥🟦🟧🟦🟧🟦🟧🟧🟧🟦 <- ADICIONANDO UM DADO...
                                              
                                              🟦🟥🟦🟥🟦🟧🟦🟧🟧🟧🟦 <- ADICIONANDO MAIS UM...
+                                             
+                                             
+No nosso aplicativo, utilizamos uma Fila (explicarei o porquê futuramente), mas ao invés de seu armazenamento ser dado por um vetor, é dado por uma Lista Ligada. Assim, conseguimos extrair as limitações da Fila (que é de nosso interesse, nesse caso), assim como a otimização da Lista Ligada.
+
+## 🎨 Interface 🎨
+O aplicativo foi feito em Windows Forms. Há uma breve tela de carregamento
+![Screenshot](screenshot-1.png)
