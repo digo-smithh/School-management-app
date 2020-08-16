@@ -88,3 +88,23 @@ REFERENCES AlunosED(RA),
 FOREIGN KEY (Cod)				
 REFERENCES Disciplinas(Cod))	
 ```
+Feito isso, baixe os arquivos do projeto, e no arquivo db.config.js, localizado em "/Node-Rest-API/app/config/", coloque as informações do seu banco de dados nos locais indicados. 
+
+```{r}
+module.exports = {
+    user: 'SEU USUÁRIO',
+  password: 'SUA SENHA',
+  server: 'SERVIDOR',
+  database: 'NOME DO BANCO DE DADOS',
+  "options": {
+    "encrypt": false,
+    "enableArithAbort": true
+    }
+};
+```
+Após isso, abra a pasta "Node-Rest-API" em algum terminal (seja no cmd, no Visual Studio Code...) e execute a API com o seguinte comando (o NodeJS deve estar instalado em sua máquina. Faça o download em https://nodejs.org/en/download/):
+
+```{r}
+node server
+```
+<p>O servidor estará sendo executado na sua porta 4000. Depois disso, você pode abrir o programa (um atalho dele encontra-se na pasta principal).</p>
