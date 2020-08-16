@@ -46,4 +46,5 @@ No nosso aplicativo, utilizamos uma Fila (explicarei o porquê futuramente), mas
 
 ## 🎨 Interface 🎨
 O aplicativo foi feito em Windows Forms. Há uma breve tela de carregamento
-![Screenshot](screenshot-1.png = 480x380)
+
+<img alt="screenshot-1" src="screenshot-1.png" width="480" height="380">
