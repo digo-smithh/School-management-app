@@ -1,0 +1,28 @@
+C:\Users\Rodrigo\Documents\GitHub\API-School-Consummer\School-API-Consummer\bin\Debug\School-API-Consummer.exe.config
+C:\Users\Rodrigo\Documents\GitHub\API-School-Consummer\School-API-Consummer\bin\Debug\School-API-Consummer.exe
+C:\Users\Rodrigo\Documents\GitHub\API-School-Consummer\School-API-Consummer\bin\Debug\School-API-Consummer.pdb
+C:\Users\Rodrigo\Documents\GitHub\API-School-Consummer\School-API-Consummer\obj\Debug\School-API-Consummer.csprojAssemblyReference.cache
+C:\Users\Rodrigo\Documents\GitHub\API-School-Consummer\School-API-Consummer\obj\Debug\School_API_Consummer.Properties.Resources.resources
+C:\Users\Rodrigo\Documents\GitHub\API-School-Consummer\School-API-Consummer\obj\Debug\School-API-Consummer.csproj.GenerateResource.cache
+C:\Users\Rodrigo\Documents\GitHub\API-School-Consummer\School-API-Consummer\obj\Debug\School-API-Consummer.exe
+C:\Users\Rodrigo\Documents\GitHub\API-School-Consummer\School-API-Consummer\obj\Debug\School-API-Consummer.pdb
+C:\Users\Rodrigo\Documents\GitHub\API-School-Consummer\School-API-Consummer\obj\Debug\School_API_Consummer.Form1.resources
+C:\Users\Rodrigo\Documents\GitHub\API-School-Consummer\School-API-Consummer\obj\Debug\School_API_Consummer.Form2.resources
+C:\Dudu\Projetos e Apps\Node-API-Consummer\API-School-Consummer\School-API-Consummer\bin\Debug\School-API-Consummer.exe.config
+C:\Dudu\Projetos e Apps\Node-API-Consummer\API-School-Consummer\School-API-Consummer\bin\Debug\School-API-Consummer.exe
+C:\Dudu\Projetos e Apps\Node-API-Consummer\API-School-Consummer\School-API-Consummer\bin\Debug\School-API-Consummer.pdb
+C:\Dudu\Projetos e Apps\Node-API-Consummer\API-School-Consummer\School-API-Consummer\obj\Debug\School-API-Consummer.csprojAssemblyReference.cache
+C:\Dudu\Projetos e Apps\Node-API-Consummer\API-School-Consummer\School-API-Consummer\obj\Debug\School_API_Consummer.Form1.resources
+C:\Dudu\Projetos e Apps\Node-API-Consummer\API-School-Consummer\School-API-Consummer\obj\Debug\School_API_Consummer.Form2.resources
+C:\Dudu\Projetos e Apps\Node-API-Consummer\API-School-Consummer\School-API-Consummer\obj\Debug\School_API_Consummer.Properties.Resources.resources
+C:\Dudu\Projetos e Apps\Node-API-Consummer\API-School-Consummer\School-API-Consummer\obj\Debug\School-API-Consummer.csproj.GenerateResource.cache
+C:\Dudu\Projetos e Apps\Node-API-Consummer\API-School-Consummer\School-API-Consummer\obj\Debug\School-API-Consummer.csproj.CoreCompileInputs.cache
+C:\Dudu\Projetos e Apps\Node-API-Consummer\API-School-Consummer\School-API-Consummer\obj\Debug\School-API-Consummer.exe
+C:\Dudu\Projetos e Apps\Node-API-Consummer\API-School-Consummer\School-API-Consummer\obj\Debug\School-API-Consummer.pdb
+C:\Users\Rodrigo\Documents\GitHub\API-School-Consummer\School-API-Consummer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rodrigo\Documents\GitHub\API-School-Consummer\School-API-Consummer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rodrigo\Documents\GitHub\API-School-Consummer\School-API-Consummer\obj\Debug\School-API-Consummer.csproj.CopyComplete
+C:\Dudu\Projetos e Apps\Node-API-Consummer\API-School-Consummer\School-API-Consummer\bin\Debug\Newtonsoft.Json.dll
+C:\Dudu\Projetos e Apps\Node-API-Consummer\API-School-Consummer\School-API-Consummer\bin\Debug\Newtonsoft.Json.xml
+C:\Dudu\Projetos e Apps\Node-API-Consummer\API-School-Consummer\School-API-Consummer\obj\Debug\School-API-Consummer.csproj.CopyComplete
+C:\Users\Rodrigo\Documents\GitHub\API-School-Consummer\School-API-Consummer\obj\Debug\School-API-Consummer.csproj.CoreCompileInputs.cache

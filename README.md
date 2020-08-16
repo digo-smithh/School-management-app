@@ -60,7 +60,7 @@ Nós fizemos uma animação, utilizando um Timer, para que quando o usuário alt
 Primeiramente, em seu banco de dados, crie as seguintes tabelas (a seguinte sintaxe está no padrão do MSSQL):
 
 ```{r}
-CREATE TABLE AlunosED (			
+CREATE TABLE Alunos (			
 RA SMALLINT PRIMARY KEY,		
 Nome VARCHAR(40) NOT NULL)		
 
@@ -79,7 +79,7 @@ REFERENCES AlunosED(RA),
 FOREIGN KEY (Cod)							
 REFERENCES Disciplinas(Cod))
 
-CREATE TABLE MatriculasED (		
+CREATE TABLE Matriculas (		
 RA SMALLINT,					
 Cod INT,						
 PRIMARY KEY (RA,Cod),			
