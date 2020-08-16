@@ -49,9 +49,7 @@ O aplicativo foi feito em Windows Forms. Há uma breve tela de carregamento (sua
 
 |          |          |          |  
 |----------|----------|----------|
-| <img alt="screenshot-1" src="screenshot-1.png" width="350" height="235"> | 
- <img alt="screenshot-3" src="screenshot-3.png" width="205" height="235"> | 
- <img alt="screenshot-2" src="screenshot-2.png" width="205" height="235"> | 
+| <img alt="screenshot-1" src="screenshot-1.png" width="350" height="235"> | <img alt="screenshot-3" src="screenshot-3.png" width="205" height="235"> | <img alt="screenshot-2" src="screenshot-2.png" width="205" height="235"> | 
 
 
                                                                            
