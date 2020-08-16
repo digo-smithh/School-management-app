@@ -117,3 +117,9 @@ npm install
 Digite o RA de um aluno, o código de uma disciplina, a nota e a frequência. (Nota-se que o aluno, a disciplina e a matrícula de tal aluno em tal disciplina deve estar previamente adicionada no banco de dados, por meio de comandos SQL. Afinal, apenas o cadastro de um **RESULTADO** está implementado. Também nota-se a riqueza de verificações do programa e da API, que não deixará incluir um aluno não existente, uma disciplina não existente, uma matrícula não existente, um resultado já existente...). Então, aperte ➕. Depois de adicionar todos os resultados, aperte salvar 💾. Caso você queira apagar um registro da lista, selecione a linha correspondente da tabela e aperte **DELETE**. Ao pressionar salvar, todos os dados serão enviados ao servidor, que adicionará ao banco de dados.
 
 ## ❔ Como funciona ❔
+
+<p>No momento em que apertamos o botão ➕, um resultado é adicionado na Fila (que os armazena em uma Lista Ligada). Quando adicionamos outro resultado, mais um dado entra para a Fila, assim por diante. Quando apertarmos 💾, é feita uma solicitação do tipo POST para a API para cada dado que tem na Fila. Assim, em ordem, todos os resultados são adicionados no banco de dados.</p>
+
+<p>A API é feita no Framework NodeJS e conta com um CRUD completo com todas as tabelas usadas neste projeto, assim como diversas verificações.</p>
+
+That is all!
