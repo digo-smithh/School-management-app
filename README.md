@@ -11,7 +11,17 @@ Farei um pequeno resumo dessas duas estruturas, relacionando-o com seus usos em 
 
 ##### Fila:
 Uma Fila consiste em uma classe que armazena dados (comumente, em uma matriz unidimensional), mas seguindo o princípio FIFO (First in, First out). Isso significa que, ao ser adicionado dados no vetor, apenas conseguiremos remover os primeiros que foram adicionados, assim como em uma fila de supermercado: o primeiro que chega, é o primeiro que sai.
+                                                
+                                           FIM DA FILA        INICIO DA FILA
+                    DADOS SENDO ADICIONADOS ->  🟥🟩🟩🟩🟩🟩🟩🟩🟩  <- DADOS SENDO REMOVIDOS
+                                                
+                                                🟩🟥🟩🟩🟩🟩🟩🟩🟩
 
+                                                🟩🟩🟥🟩🟩🟩🟩🟩🟩
+                                                
+                                                        (...)
+
+                                                🟩🟩🟩🟩🟩🟩🟩🟩🟥
 
 ##### Lista Ligada:
 Uma Fila consiste em uma classe que armazena dados (comumente, em uma matriz unidimensional), mas seguindo o princípio FIFO (First in, First out). Isso significa que, ao ser adicionado dados no vetor, apenas conseguiremos remover os primeiros que foram adicionados, assim como em uma fila de supermercado: o primeiro que chega, é o primeiro que sai.
