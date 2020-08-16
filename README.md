@@ -50,10 +50,41 @@ O aplicativo foi feito em Windows Forms. Há uma breve tela de carregamento (sua
 | <img alt="screenshot-1" src="screenshot-1.png" width="350" height="235"> | <img alt="screenshot-3" src="screenshot-3.png" width="205" height="235"> | <img alt="screenshot-2" src="screenshot-2.png" width="205" height="235"> | 
 |----------|:----------:|----------:|
                                                                            
-<br>O aplicativo foi feito em Windows Forms. Há uma breve tela de carregamento (sua intenção é apenas decorar, afinal o aplicativo é muito simples e não há necessidade de pré-carregar alguma coisa.). No momento que a tela de carregamento desaparece e a tela principal abre, é feito um teste de conexão com a API. Caso o aplicativo não esteja se comunicando com ela da forma como deveria, o programa para de ser executado e um aviso é lançado ao usuário. Segue 3 printscreens, das telas do programa.                                                        
+<br>Na primeira foto podemos ver a tela de carregamento. Na segunda, a área de cadastro de novos resultados. Na última, uma área do aplicativo sem atribuição.
+Nós fizemos uma animação, utilizando um Timer, para que quando o usuário alternasse entre as telas, o painel contendo o texto "Oops..." desça e suba suavemente.
+
+## ❓ Como usar ❓
+
+<p> Antes de dar mais detalhes de como o programa funciona por dentro, vou mostrar como utilizá-lo. </p>
+
+Primeiramente, em seu banco de dados, crie as seguintes tabelas (a seguinte sintaxe está no padrão do MSSQL):
+
 ```{r}
-<img alt="screenshot-1" src="screenshot-1.png" width="350" height="235">
- <img alt="screenshot-3" src="screenshot-3.png" width="205" height=235">
-  <img alt="screenshot-2" src="screenshot-2.png" width="205" height="235"> 
-}
+CREATE TABLE AlunosED (			
+RA SMALLINT PRIMARY KEY,		
+Nome VARCHAR(40) NOT NULL)		
+
+CREATE TABLE Disciplinas (
+Cod INT PRIMARY KEY,
+Nome VARCHAR(40) NOT NULL)
+
+CREATE TABLE Resultados (
+RA SMALLINT,
+Cod INT,
+Nota FLOAT NOT NULL,
+Frequencia FLOAT NOT NULL,
+PRIMARY KEY (RA,Cod),
+FOREIGN KEY (RA)
+REFERENCES AlunosED(RA),	
+FOREIGN KEY (Cod)							
+REFERENCES Disciplinas(Cod))
+
+CREATE TABLE MatriculasED (		
+RA SMALLINT,					
+Cod INT,						
+PRIMARY KEY (RA,Cod),			
+FOREIGN KEY (RA)				
+REFERENCES AlunosED(RA),		
+FOREIGN KEY (Cod)				
+REFERENCES Disciplinas(Cod))	
 ```
