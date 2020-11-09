@@ -1,12 +1,12 @@
-# 📚 School-management-app 📚
-### Feito por Rodrigo Smith e Eduardo Migueis, em C# e NodeJS
+# School-management-app
+### por Rodrigo Smith e Eduardo Migueis
 
 Um aplicativo para cadastro de um resultado que um aluno teve em determinada disciplina. Foi feito com o objetivo de colocarmos em prática conhecimentos de Estrutura de Dados.
 
-## 🔵 Mais sobre... 🔵
+## Mais sobre...
 Este aplicativo utiliza as estruturas de dados Fila e Lista Ligada. Suas funcionalidades são simples, porém sua lógica é muito estruturada e bem pensada. Pensamos em uma empresa (!dea - school management), que administraria os dados de alunos das escolas. Dessa forma, desenvolvemos um aplicativo para ela.
 
-## 💽 Fila e Lista Ligada 💽
+## Fila e Lista Ligada
 Farei um pequeno resumo dessas duas estruturas, relacionando-o com seus usos em nosso projeto.
 
 ##### Fila:
@@ -44,7 +44,7 @@ Uma Lista Ligada, na prática, funciona exatamente como um vetor. Sua diferença
                                              
 No nosso aplicativo, utilizamos uma Fila (explicarei o porquê futuramente), mas ao invés de seu armazenamento ser dado por um vetor, é dado por uma Lista Ligada. Assim, conseguimos extrair as limitações da Fila (que é de nosso interesse, nesse caso), assim como a otimização da Lista Ligada.
 
-## 🎨 Interface 🎨
+## Interface
 O aplicativo foi feito em Windows Forms. Há uma breve tela de carregamento (sua intenção é apenas decorar, afinal o aplicativo é muito simples e não há necessidade de pré-carregar alguma coisa.). No momento que a tela de carregamento desaparece e a tela principal abre, é feito um teste de conexão com a API. Caso o aplicativo não esteja se comunicando com ela da forma como deveria, o programa para de ser executado e um aviso é lançado ao usuário. Segue 3 printscreens, das telas do programa. <br>  
 
 | <img alt="screenshot-1" src="screenshot-1.png" width="350" height="235"> | <img alt="screenshot-3" src="screenshot-3.png" width="205" height="235"> | <img alt="screenshot-2" src="screenshot-2.png" width="205" height="235"> | 
@@ -53,7 +53,7 @@ O aplicativo foi feito em Windows Forms. Há uma breve tela de carregamento (sua
 <br>Na primeira foto podemos ver a tela de carregamento. Na segunda, a área de cadastro de novos resultados. Na última, uma área do aplicativo sem atribuição.
 Nós fizemos uma animação, utilizando um Timer, para que quando o usuário alternasse entre as telas, o painel contendo o texto "Oops..." desça e suba suavemente.
 
-## ❓ Como usar ❓
+## Como usar
 
 <p> Antes de dar mais detalhes de como o programa funciona por dentro, vou mostrar como utilizá-lo. </p>
 
@@ -116,7 +116,7 @@ npm install
 
 Digite o RA de um aluno, o código de uma disciplina, a nota e a frequência. (Nota-se que o aluno, a disciplina e a matrícula de tal aluno em tal disciplina deve estar previamente adicionada no banco de dados, por meio de comandos SQL. Afinal, apenas o cadastro de um **RESULTADO** está implementado. Também nota-se a riqueza de verificações do programa e da API, que não deixará incluir um aluno não existente, uma disciplina não existente, uma matrícula não existente, um resultado já existente...). Então, aperte ➕. Depois de adicionar todos os resultados, aperte salvar 💾. Caso você queira apagar um registro da lista, selecione a linha correspondente da tabela e aperte **DELETE**. Ao pressionar salvar, todos os dados serão enviados ao servidor, que adicionará ao banco de dados.
 
-## ❔ Como funciona ❔
+## Como funciona
 
 <p>No momento em que apertamos o botão ➕, um resultado é adicionado na Fila (que os armazena em uma Lista Ligada). Quando adicionamos outro resultado, mais um dado entra para a Fila, assim por diante. Quando apertarmos 💾, é feita uma solicitação do tipo POST para a API para cada dado que tem na Fila. Assim, em ordem, todos os resultados são adicionados no banco de dados.</p>
 
